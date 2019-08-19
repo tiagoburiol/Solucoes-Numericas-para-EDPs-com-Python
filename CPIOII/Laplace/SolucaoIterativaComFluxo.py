@@ -2,7 +2,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import *
-#import matplotlib
 from mpl_toolkits.mplot3d import Axes3D
 
 
@@ -149,8 +148,8 @@ tempo = np.round(t2-t1,3)
 print("\n")
 print("         Dimensão da malha:", n, "linhas/colunas")
 print("   Limite superior do erro:", np.round(Lim*100, 10), "%")
-print ("                 Iterações:", iterac)
-print ("           Pontos iterados:", loops)
+print("                 Iterações:", iterac)
+print("           Pontos iterados:", loops)
 print(" Tempo de Iteração (clock):", str(tempo), " segundos")
 
 
